@@ -38,11 +38,13 @@ img {
 .header {
    text-align: center;
    height: 20vh;
-    
+    background-color: #f7f8fa;
+    padding-top: 1vh;
 }
 
 form {
-   
+  padding-top: 8vh; 
+  
     
 }
 input, label {
@@ -51,9 +53,10 @@ input, label {
 
 fieldset {
 display: flex;
-   height: 10vh;
+   height: 8vh;
    justify-content: center;
-   gap: 10vw
+   gap: 10vw;
+   border: none
 }
 
 .input {
@@ -61,6 +64,12 @@ display: flex;
     
 }
 .submit {
+    height: 28vh;
     padding-left: 2vw;
     padding-top: 2vw;
+    background-color: #f7f8fa;
+}
+
+.password {
+    padding-bottom: 10vh;
 }
