@@ -8,7 +8,7 @@
     <title>Sign-Up-Form</title>
 </head>
 <body>
-    <div class="container">
+    
     <div class="sideBar-container">
     <img class="sideBar-img" src="./pictures/IMG_2730.JPG">
     <div class="sideBar-heading">High Exposure Guiding</div>
@@ -19,29 +19,41 @@
    </div>
    <form action="https://httpbin.org/post" method="post">
     <fieldset>
+    <div class="input">
     <label for="first_name">First Name</label>
     <input name="first_name" type="text" id="first_name" required>
+    </div>
+    <div class="input">
     <label for="last_name">Last Name</label>
     <input name="last_name" type="text" id="last_name" required>
+    </div>
     </fieldset>
 
     <fieldset>
+    <div class="input">
     <label for="email">Email</label>
     <input name="email" type="email" id="email" required>
+    </div>
+    <div class="input">
     <label for="phone_number">Phone Number</label>
     <input name="phone_number" type="text" id="phone_number" pattern="(^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$)" required>
+    </div>
     </fieldset>
 
     <fieldset>
+    <div class="input">
     <label for="password">Password</label>
     <input name="password" type="password" minlength="8" id="password" required>
+    </div>
+    <div class="input">
     <label for="confirm_password">Confirm Password</label>
     <input name="password_confirm" type="password" minlength="8" id="confirm_password" required>
+    </div>
     </fieldset>
     <button type="submit">Register</button>
   </form>
 </div>
-</div>
+
 
 
 

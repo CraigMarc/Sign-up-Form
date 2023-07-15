@@ -5,9 +5,7 @@ html {
     width: 100%
 }
  
-.container {
-width: 100%;
-}
+
 
 .flexchild {
     width: 68vw;
@@ -43,7 +41,21 @@ img {
 }
 
 form {
-    
+   
     
 }
+input, label {
+   display: block;
+}
 
+fieldset {
+display: flex;
+   height: 10vh;
+   justify-content: center;
+   gap: 10vw
+}
+
+.input {
+   
+    
+}
