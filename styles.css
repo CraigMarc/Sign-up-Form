@@ -37,6 +37,7 @@ img {
 
 .header {
    text-align: center;
+   height: 20vh;
     
 }
 
@@ -58,4 +59,8 @@ display: flex;
 .input {
    
     
+}
+.submit {
+    padding-left: 2vw;
+    padding-top: 2vw;
 }
