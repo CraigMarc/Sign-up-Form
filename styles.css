@@ -1,0 +1,21 @@
+html {
+    width: 100%
+    
+}
+.sideBar-container {
+    position: relative;
+    width: 30vh;
+  }
+
+
+img {
+    position: absolute;
+   width: 30vw;
+   height: 100vh;
+   z-index: -1;
+}
+
+.sideBar-heading {
+    position: absolute;
+}
+
