@@ -40,12 +40,12 @@ img {
    height: 20vh;
     background-color: #f7f8fa;
     padding-top: 1vh;
+    font-size: 20px;
 }
 
 form {
   padding-top: 8vh; 
   
-    
 }
 input, label {
    display: block;
@@ -59,10 +59,14 @@ display: flex;
    border: none
 }
 
-.input {
-   
-    
+
+
+input {
+font-size: 20px;
+border-radius: 5px;
 }
+
+
 .submit {
     height: 28vh;
     padding-left: 2vw;
@@ -72,4 +76,11 @@ display: flex;
 
 .password {
     padding-bottom: 10vh;
+}
+
+button {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #03d3fc;
 }
