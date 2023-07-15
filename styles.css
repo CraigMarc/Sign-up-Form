@@ -16,6 +16,11 @@ img {
 }
 
 .sideBar-heading {
+    background: black;
+  opacity: 0.6;
+  color: white;
     position: absolute;
+    font-size: 3rem;
+    padding: 1rem;
 }
 
