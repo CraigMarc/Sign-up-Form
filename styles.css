@@ -28,7 +28,7 @@ html {
     .sideBar-container {
         
         width: 90vw;
-      height: 100vh;
+      height: 90vh;
     }}
 
 img {
@@ -42,7 +42,7 @@ img {
     img {
         
         width: 90vw;
-      
+      height: 90vh;
     }}
 
 
@@ -97,10 +97,10 @@ display: flex;
 @media only screen and (max-width: 550px) {
     fieldset {
         
-    width: 100%;
+    width: 90vw;
     flex-wrap: wrap;
       height: 30vh;
-      gap: 5px;
+      gap: 3px;
     }}
 
 
@@ -113,7 +113,7 @@ border-radius: 5px;
 @media only screen and (max-width: 550px) {
     input {
         
-    width: 80%;
+    width: 80vw;
     
       
     }}
@@ -129,7 +129,7 @@ border-radius: 5px;
 @media only screen and (max-width: 550px) {
     .submit {
         
-    width: 100vw;
+    width: 90vw;
     
       
     }}
