@@ -11,20 +11,40 @@ html {
     width: 68vw;
     margin-left: 30vw;
 }
-    
+@media only screen and (max-width: 550px) {
+    .flexchild {
+        
+        
+        width: 100vw;
+        margin-left: 0vw;
+    }}  
 
 .sideBar-container {
     position: relative;
     width: 30vw;
+    
   }
-
+  @media only screen and (max-width: 550px) {
+    .sideBar-container {
+        
+        width: 90vw;
+      height: 100vh;
+    }}
 
 img {
     position: absolute;
    width: 30vw;
-  
+  height: 100vh;
    z-index: -1;
 }
+
+@media only screen and (max-width: 550px) {
+    img {
+        
+        width: 90vw;
+      
+    }}
+
 
 .sideBar-heading {
     background: black;
@@ -43,6 +63,13 @@ img {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 550px) {
+    .header {
+        
+        width: 90vw;
+      
+    }}
+
 form {
   padding-top: 8vh; 
   
@@ -51,6 +78,8 @@ input, label {
    display: block;
 }
 
+
+
 fieldset {
 display: flex;
    height: 8vh;
@@ -58,21 +87,46 @@ display: flex;
    gap: 10vw;
    border: none
 }
+@media only screen and (max-width: 550px) {
+    fieldset {
+        
+    width: 100%;
+    flex-wrap: wrap;
+      height: 30vh;
+      gap: 5px;
+    }}
 
 
 
 input {
 font-size: 20px;
 border-radius: 5px;
-}
 
+}
+@media only screen and (max-width: 550px) {
+    input {
+        
+    width: 80%;
+    
+      
+    }}
 
 .submit {
-    height: 28vh;
+    height: 24vh;
     padding-left: 2vw;
     padding-top: 2vw;
     background-color: #f7f8fa;
+    width: 90vw;
 }
+
+@media only screen and (max-width: 550px) {
+    .submit {
+        
+    width: 100vw;
+    
+      
+    }}
+
 
 .password {
     padding-bottom: 10vh;
